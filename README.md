@@ -1,0 +1,2 @@
+# ECG-ANALYSIS-CUSTOM-FILTER
+FILTER TO ANALYSE ECG SIGNALS VIA WEARABLES to avoid loss in signal information 
