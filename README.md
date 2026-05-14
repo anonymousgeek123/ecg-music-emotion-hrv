@@ -34,4 +34,31 @@ Favorite, Rock).
 
 ## Music Type → Expected Physiological Response
 
-| Music Type | Mean HR (BPM) | Expected Stre
+| Music Type | Mean HR (BPM) | Expected Stress |
+|------------|---------------|-----------------|
+| Classical  | 62 ± 3        | Low             |
+| Favorite   | 82 ± 4        | Medium          |
+| Rock       | 105 ± 5       | High            |
+
+## Results
+
+![ECG Filtering](outputs/ecg_filtering.png)
+![Music Classification](outputs/music_confusion_matrix.png)
+![Stress Prediction](outputs/stress_confusion_matrix.png)
+![Error Distribution](outputs/error_distribution.png)
+
+## Error Analysis
+
+- Mean Absolute Error and percentage error computed per prediction
+- Error distribution histogram shows spread of stress prediction errors
+
+## Tools & Libraries
+
+Python · NeuroKit2 · SciPy · NumPy · scikit-learn · XGBoost · 
+Matplotlib · Seaborn
+
+## Files
+
+- `ecg_emotion_pipeline.py` — full preprocessing + ML pipeline
+- `report.pdf` — detailed methodology and results
+- `outputs/` — generated plots and confusion matrices
