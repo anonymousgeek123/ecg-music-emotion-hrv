@@ -42,10 +42,10 @@ Favorite, Rock).
 
 ## Results
 
-![ECG Filtering](outputs/ecg_filtering.png)
-![Music Classification](outputs/music_confusion_matrix.png)
-![Stress Prediction](outputs/stress_confusion_matrix.png)
-![Error Distribution](outputs/error_distribution.png)
+![ECG Filtering](ecg_filtering.png)
+![Music Classification](music_confusion_matrix.png)
+![Stress Prediction](stress_confusion_matrix.png)
+![Error Distribution](error_distribution.png)
 
 ## Error Analysis
 
@@ -61,4 +61,3 @@ Matplotlib · Seaborn
 
 - `ecg_emotion_pipeline.py` — full preprocessing + ML pipeline
 - `report.pdf` — detailed methodology and results
-- `outputs/` — generated plots and confusion matrices
