@@ -40,12 +40,6 @@ Favorite, Rock).
 | Favorite   | 82 ± 4        | Medium          |
 | Rock       | 105 ± 5       | High            |
 
-## Results
-
-![ECG Filtering](ecg_filtering.png)
-![Music Classification](music_confusion_matrix.png)
-![Stress Prediction](stress_confusion_matrix.png)
-![Error Distribution](error_distribution.png)
 
 ## Error Analysis
 
