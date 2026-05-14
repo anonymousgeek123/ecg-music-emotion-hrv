@@ -207,3 +207,24 @@ plt.title("Stress Confusion Matrix")
 plt.show()
 
 print("\n Done! Plots + Accuracies working 100%")
+
+# -----------------------------
+# MSE & Error Analysis Block
+# -----------------------------
+errors = yS_test - predS
+abs_error = np.abs(errors)
+percentage_error = (abs_error / yS_test) * 100
+
+print("\n Error Analysis:")
+print(f"Mean Absolute Error: {np.mean(abs_error):.4f}")
+print(f"Mean Percentage Error: {np.mean(percentage_error):.2f}%")
+print(f"Max Absolute Error: {np.max(abs_error):.4f}")
+print(f"Max Percentage Error: {np.max(percentage_error):.2f}%")
+
+# Histogram of error
+plt.figure()
+plt.hist(errors, bins=20)
+plt.title("Error Distribution (Stress Prediction)")
+plt.xlabel("Prediction Error")
+plt.ylabel("Frequency")
+plt.show()
