@@ -1,5 +1,3 @@
-<img width="1176" height="381" alt="image" src="https://github.com/user-attachments/assets/137fe749-a206-416e-9f32-fa837363b908" /># ECG Signal Preprocessing for Music-Induced Emotion Recognition
-
 Course project — ECG signal processing pipeline for HRV-based 
 emotion and stress analysis in response to music stimuli.
 
